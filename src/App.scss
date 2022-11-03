@@ -1,7 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
 iframe {
   display: none;
 }
 
-button {
-  cursor: pointer;
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: whitesmoke;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-between;
+    height: 100%;
+    padding: 16px;
+  }
 }
